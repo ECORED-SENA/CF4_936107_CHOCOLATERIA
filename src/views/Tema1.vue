@@ -269,25 +269,18 @@
       .row.justify-content-center.align-items-center      
         .col-lg-10(data-aos="fade-right")
           AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg6-1")
-            .row.justify-content-center.align-items-start(titulo="Documentación y procedimientos")
-              .col-lg-5.my-3 
-                img.img-a.img-t(src='@/assets/curso/tema1/img42.png', alt='')      
-              .col-lg-6.my-3.mb-4.mb-md-0
+            .row.justify-content-center.align-items-start(titulo="Documentación y procedimientos")    
+              .col-lg-12.my-3.mb-4.mb-md-0
                 p En el proceso productivo, es importante la documentación de cada fase explicada anteriormente, este documento debe condensar la actividad que se realizó, cuándo se realizó y los posibles inconvenientes encontrados. Este ejercicio sirve para aplicar planes de mejoramiento cuando el producto final no cumple con los mínimos de calidad establecidos. 
-            .row.justify-content-center.align-items-start(titulo="Calidad de la materia prima")
-              .col-lg-5.my-3 
-                img.img-a.img-t(src='@/assets/curso/tema1/img43.png', alt='')      
-              .col-lg-6.my-3.mb-4.mb-md-0
+            .row.justify-content-center.align-items-start(titulo="Calidad de la materia prima")    
+              .col-lg-12.my-3.mb-4.mb-md-0
                 p La materia prima, en este caso el cacao, es la base para producir un chocolate de calidad; si este fruto no cumple con los mínimos requeridos, el producto final no cumplirá con los ítems establecidos en el mercado y, a la vez, su calidad va a ser baja. Por ende, es importante comprar la materia prima y aplicarle un laboratorio de control de calidad cuando se reciba en la planta de procesamiento. 
-            .row.justify-content-center.align-items-start(titulo="Molienda del cacao")
-              .col-lg-5.my-3 
-                img.img-a.img-t(src='@/assets/curso/tema1/img44.png', alt='')      
-              .col-lg-6.my-3.mb-4.mb-md-0
+            .row.justify-content-center.align-items-start(titulo="Molienda del cacao")     
+              .col-lg-12.my-3.mb-4.mb-md-0
                 p El garantizar una molienda adecuada ayudará en el proceso de mezclado, por eso es importante aplicar en esta fase unas pruebas de tamaño, con el fin de tener uniformidad en la masa y así poder garantizar un producto sin sensación arenosa. 
             .row.justify-content-center.align-items-start(titulo="Pesaje de la materia prima")
-              .col-lg-5.my-3 
-                img.img-a.img-t(src='@/assets/curso/tema1/img45.png', alt='')      
-              .col-lg-6.my-3.mb-4.mb-md-0
+                  
+              .col-lg-12.my-3.mb-4.mb-md-0
                 p Con el fin de garantizar que se cumplirá con lo establecido en el proceso productivo, es importante que se pesen los ingredientes que se van a combinar en él, por ejemplo, los conservantes y aderezos si en este caso se van a procesar unos bombones de chocolate.
             .row.justify-content-center.align-items-start(titulo="Almacenamiento")
               .col-lg-5.my-3 
