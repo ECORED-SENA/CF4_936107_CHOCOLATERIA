@@ -99,14 +99,14 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.col-10.order-lg-1.order-2.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img18.png")
-        .col-lg-5.order-lg-2.order-1(data-aos="fade-right")
+        .col-lg-5.order-lg-2.order-1(data-aos="fade-right").mb-3
           p.mb-0 Después del proceso de secado, el grano pasa al de limpieza y clasificación, en esta fase se eliminan piedras, vidrios, pedazos de madera o cualquier otro material que en el proceso de secado el grano haya obtenido. Se realiza una clasificación por tamaño, para garantizar un proceso de tostado parejo en cuanto a dimensión de granos. 
     .bg6
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-lg-1.col-2.img01
           img.w-50(src="@/assets/curso/tema1/img19.png")
         .col
-          .h4.ms-5.mb-0 <span style="color:#7D5F54">Tostado y descascarillado</span>  
+          .h3.ms-5.mb-0 <span style="color:#7D5F54">Tostado y descascarillado</span>  
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-2.col-5.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img21.png")
@@ -146,7 +146,7 @@
         ImagenInfografica.d-none.d-sm-flex.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img25.png', alt='Texto que describa la imagen')(data-aos="fade-right")
           .tarjeta.color-cuarto.p-3(x="17%" y="12.6%" numero="")
             p <b>Apariencia</b> 
             p.mb-0 Se debe observar el color, brillo, tamaño y textura, es importante verificar que no tenga una separación de la grasa, ni burbujas de aire.
@@ -163,7 +163,7 @@
         ImagenInfografica.d-flex.d-sm-none.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img26.png', alt='Texto que describa la imagen')(data-aos="fade-right")
           .tarjeta.color-cuarto.p-3(x="50%" y="8.6%" numero="")
             p <b>Apariencia</b> 
             p.mb-0 Se debe observar el color, brillo, tamaño y textura, es importante verificar que no tenga una separación de la grasa, ni burbujas de aire.
@@ -233,11 +233,11 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         figure
-          img.d-none.d-sm-flex(src='@/assets/curso/tema1/img33.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
+          img.d-none.d-sm-flex(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen')(data-aos="fade-right")
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img.d-flex.d-sm-none(src='@/assets/curso/tema1/img34.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
+          img.d-flex.d-sm-none(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen')(data-aos="fade-right") 
     p.mb-5 Además, se debe contar con la vestimenta de trabajo adecuada, es decir, que favorezca el proceso y cuente con los lineamientos estipulados por la norma, para que los resultados sean óptimos y de calidad, como se presenta a continuación:     
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -252,11 +252,11 @@
         .col-lg-10
           p Aparte de las condiciones de higiene que permiten una inocuidad en el proceso, es importante garantizar un buen cultivo de cacao; las siguientes son las condiciones que se deben tener en cuenta:
       .row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-lg-12
           figure
             img.d-none.d-sm-flex(src='@/assets/curso/tema1/img38.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
       .row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-lg-12
           figure
             img.d-flex.d-sm-none(src='@/assets/curso/tema1/img39.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
       .row.justify-content-center.align-items-center          
@@ -269,23 +269,30 @@
       .row.justify-content-center.align-items-center      
         .col-lg-10(data-aos="fade-right")
           AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg6-1")
-            .row.justify-content-center.align-items-start(titulo="Documentación y procedimientos")    
-              .col-lg-12.my-3.mb-4.mb-md-0
+            .row.justify-content-center.align-items-start(titulo="Documentación y procedimientos")
+              .col-lg-4.my-3 
+                img.img-a.img-t(src='@/assets/curso/tema1/img42.png', alt='')     
+              .col-lg-8.my-3.mb-4.mb-md-0
                 p En el proceso productivo, es importante la documentación de cada fase explicada anteriormente, este documento debe condensar la actividad que se realizó, cuándo se realizó y los posibles inconvenientes encontrados. Este ejercicio sirve para aplicar planes de mejoramiento cuando el producto final no cumple con los mínimos de calidad establecidos. 
-            .row.justify-content-center.align-items-start(titulo="Calidad de la materia prima")    
-              .col-lg-12.my-3.mb-4.mb-md-0
+            .row.justify-content-center.align-items-start(titulo="Calidad de la materia prima")  
+              .col-lg-4.my-3 
+                img.img-a.img-t(src='@/assets/curso/tema1/img43.png', alt='')   
+              .col-lg-8.my-3.mb-4.mb-md-0
                 p La materia prima, en este caso el cacao, es la base para producir un chocolate de calidad; si este fruto no cumple con los mínimos requeridos, el producto final no cumplirá con los ítems establecidos en el mercado y, a la vez, su calidad va a ser baja. Por ende, es importante comprar la materia prima y aplicarle un laboratorio de control de calidad cuando se reciba en la planta de procesamiento. 
-            .row.justify-content-center.align-items-start(titulo="Molienda del cacao")     
-              .col-lg-12.my-3.mb-4.mb-md-0
+            .row.justify-content-center.align-items-start(titulo="Molienda del cacao") 
+              .col-lg-4.my-3 
+                img.img-a.img-t(src='@/assets/curso/tema1/img44.png', alt='')     
+              .col-lg-8.my-3.mb-4.mb-md-0
                 p El garantizar una molienda adecuada ayudará en el proceso de mezclado, por eso es importante aplicar en esta fase unas pruebas de tamaño, con el fin de tener uniformidad en la masa y así poder garantizar un producto sin sensación arenosa. 
             .row.justify-content-center.align-items-start(titulo="Pesaje de la materia prima")
-                  
-              .col-lg-12.my-3.mb-4.mb-md-0
+              .col-lg-4.my-3 
+                img.img-a.img-t(src='@/assets/curso/tema1/img45.png', alt='')    
+              .col-lg-8.my-3.mb-4.mb-md-0
                 p Con el fin de garantizar que se cumplirá con lo establecido en el proceso productivo, es importante que se pesen los ingredientes que se van a combinar en él, por ejemplo, los conservantes y aderezos si en este caso se van a procesar unos bombones de chocolate.
             .row.justify-content-center.align-items-start(titulo="Almacenamiento")
-              .col-lg-5.my-3 
+              .col-lg-4.my-3 
                 img.img-a.img-t(src='@/assets/curso/tema1/img46.png', alt='')      
-              .col-lg-6.my-3.mb-4.mb-md-0
+              .col-lg-8.my-3.mb-4.mb-md-0
                 p El producto terminado debe almacenarse en sitios que le garanticen la temperatura adecuada para que no pierda su contextura; es un producto que puede pasar del estado sólido al líquido a causa de las temperaturas elevadas. También se debe de tener en cuenta su vida útil.
     .row.justify-content-center.align-items-center          
       .col-lg-12.imgs-flotantes1

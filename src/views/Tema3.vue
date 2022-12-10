@@ -19,7 +19,7 @@
         .col-lg-10  
           .titulo-sexto.color-acento-contenido(data-aos="zoom-in-left")
             h5 Tabla 1.
-            span CFases y variables de control
+            span Fases y variables de control
         .col-lg-8 
           .tabla-a.color-secundario.mb-5 
             table.table1

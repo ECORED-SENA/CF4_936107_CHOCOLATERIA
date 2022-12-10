@@ -185,7 +185,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Aguilar, H. (2016). Manual para la evaluación de la calidad del grano de cacao. Fundación Hondureña de Investigación',
+        'Aguilar, H. (2016). Manual para la evaluación de la calidad del grano de cacao. Fundación Hondureña de Investigación.',
       link:
         'http://www.fhia.org.hn/descargas/Proyecto_de_Cacao_SECO/Manual_para_la_Evaluacion_de_la_Calidad_del_Grano_de_Cacao.pdf',
     },
@@ -209,7 +209,7 @@ export default {
     },
     {
       referencia:
-        'Aguilar, H. (2016). Manual para la evaluación de la calidad del grano de cacao. Fundación Hondureña de Investigación',
+        'Aguilar, H. (2016). Manual para la evaluación de la calidad del grano de cacao. Fundación Hondureña de Investigación.',
       link:
         'http://www.fhia.org.hn/descargas/Proyecto_de_Cacao_SECO/Manual_para_la_Evaluacion_de_la_Calidad_del_Grano_de_Cacao.pdf',
     },
@@ -300,8 +300,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

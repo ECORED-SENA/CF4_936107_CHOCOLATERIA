@@ -11,18 +11,20 @@
         img.img-flotante6(src='@/assets/curso/tema2/img9.png', alt='Imagen decorativa')
     p.mb-5 En el proceso productivo, se generan residuos sólidos que se reutilizan, bien sea en el mismo proceso o en otros diferentes a este; para ello, se comparte el tipo de residuo de acuerdo con sus características y uso:   
     .row.justify-content-center.align-items-center(data-aos="zoom-in").mb-5
-      .col-9.col-lg-6.mb-3.mb-lg-0.bg11
-        .row.m-1.hoverScale2
-          .col-12.p-3.bgcontenido(style="height: 450px")
-            img.mb-4(src="@/assets/curso/tema4/img1.png" alt='Texto que describa la imagen')
-            h4.text-center <span style="color:#3A1C12">Cascarilla</span>   
-            p Es antioxidante, ayuda a regular el sistema digestivo. Tiene vitaminas A y C, fibra, potasio, calcio, teobromina y ácido oleico. Se consume por infusión, se recomienda no cocinarla para evitar la pérdida de sus nutrientes.
-      .col-9.col-lg-6.mb-3.mb-lg-0.bg12
-        .row.m-1.hoverScale2 
-          .col-12.p-3.bgcontenido2(style="height: 450px")
-            img.mb-4(src="@/assets/curso/tema4/img2.png" alt='Texto que describa la imagen')
-            h4.text-center <span style="color:#FCC02D">Cenizas de cáscara de cacao</span>   
-            p.text-white Se utiliza para elaborar jabón o como fertilizante en cultivos, incluyendo el del cacao.
+      .col-12.col-lg-6.mb-3.mb-lg-0
+        .bg11
+          .row.m-1.hoverScale2
+            .col-12.p-3.bgcontenido(style="height: 450px")
+              img.mb-4(src="@/assets/curso/tema4/img1.png" alt='Texto que describa la imagen')
+              h4.text-center Cascarilla  
+              p Es antioxidante, ayuda a regular el sistema digestivo. Tiene vitaminas A y C, fibra, potasio, calcio, teobromina y ácido oleico. Se consume por infusión, se recomienda no cocinarla para evitar la pérdida de sus nutrientes.
+      .col-12.col-lg-6.mb-3.mb-lg-0
+        .bg11
+          .row.m-1.hoverScale2 
+            .col-12.p-3.bgcontenido2(style="height: 450px")
+              img.mb-4(src="@/assets/curso/tema4/img2.png" alt='Texto que describa la imagen')
+              h4.text-center Cenizas de cáscara de cacao  
+              p Se utiliza para elaborar jabón o como fertilizante en cultivos, incluyendo el del cacao.
     .row.justify-content-center.align-items-center.mb-3.mb-lg-5
       .col-lg-5.col-9.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img3.png")
