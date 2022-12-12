@@ -61,7 +61,8 @@
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6 
   color: #12263F !important 
 
-
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/7.png") !important
 
 .img-t
   width: auto
@@ -144,7 +145,10 @@
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: center top  
-
+    @media ( max-width: $bp-max-md )
+      background-size: cover
+      width: calc( 100% + 96px )
+      height: 100%    
 .bg6
   position: relative
   .row, figure, p, h3, h4, .titulo-sexto.color-primario
@@ -243,7 +247,7 @@
   position: relative
 .imgs-flotantes1 img.img-flotante1
   position: absolute
-  top: -131px
+  top: -158px
   left: 96%
   width: 88px
   @media (max-width: 810px)
@@ -316,6 +320,7 @@
   border: 1px solid #FD7F23
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #FD7F23
+  background-size: 24px 40px
 
 .slyder-a__bullets__item 
   background-color: #85A3BC
@@ -325,6 +330,7 @@
   @media (max-width: 810px)
     width: 35px
     height: 35px
+    background-size: 14px 40px
   @media (max-width: $bp-max-sm )
     width: 30px
     height: 30px  

@@ -249,7 +249,7 @@
           img.d-flex.d-sm-none(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
     .bg7 
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-10
+        .col-lg-12
           p Aparte de las condiciones de higiene que permiten una inocuidad en el proceso, es importante garantizar un buen cultivo de cacao; las siguientes son las condiciones que se deben tener en cuenta:
       .row.justify-content-center.align-items-center
         .col-lg-12
