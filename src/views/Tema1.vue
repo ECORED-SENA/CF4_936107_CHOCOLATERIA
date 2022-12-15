@@ -32,8 +32,8 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema1/img6.svg', alt='').mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos="zoom-in-left")
-            h5 Figura 2. 
-            span Licor para prensado
+            h5 Figura 3. 
+            span Licor para chocolate 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema1/img7.svg', alt='').mb-5
     .row.justify-content-center.align-items-center          
       .col-lg-12.imgs-flotantes3

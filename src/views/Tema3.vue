@@ -30,14 +30,14 @@
               tbody
                 tr
                   td.px-5.text-bold.text-center Limpieza y clasificación 
-                  td.px-5.text-center Fermentación (%) <br>Humedad (%) <br>TImpurezas/pizarrosos (%)
+                  td.px-5.text-center Fermentación (%) <br>Humedad (%) <br>Impurezas/pizarrosos (%)
     
                 tr.bgt1
                   td.px-5.text-bold.text-center Tostión
                   td.px-5.text-center Temperatura de tostado <br>Tiempo de tostado
                 tr
                   td.px-5.text-bold.text-center Trillado y molienda
-                  td.px-5 Cascarilla en nibs (%)
+                  td.px-5.text-center Cascarilla en <em>nibs</em> (%)
                 tr.bgt1
                   td.px-5.text-bold.text-center Refinación
                   td.px-5.text-center Tiempo de refinación
@@ -46,7 +46,7 @@
                   td.px-5.text-center Peso de la pastilla
                 tr.bgt1
                   td.px-5.text-bold.text-center Desmolde 
-                  td.px-5 Humedad en superficie
+                  td.px-5.text-center Humedad en superficie
                 tr
                   td.px-5.text-bold.text-center Empaque 
                   td.px-5.text-center Sellado completo    
@@ -79,13 +79,13 @@
                 td.px-5.text-center Máx. 3 %
               tr.bgt1
                 td.px-5.text-bold.text-center Refinación
-                td.px-5 Mínimo 6 horas
+                td.px-5.text-center Mínimo 6 horas
               tr
                 td.px-5.text-bold.text-center Moldeado
                 td.px-5.text-center Mínimo 8 g - máx. 9 g
               tr.bgt1
                 td.px-5.text-bold.text-center Desmolde 
-                td.px-5 Libre de humedad
+                td.px-5.text-center Libre de humedad
               tr
                 td.px-5.text-bold.text-center Empaque 
                 td.px-5.text-center Sin agujeros   
@@ -114,7 +114,7 @@
               tr.bgt1
                 td.px-5.text-bold.text-center Tostión
                 td.px-5.text-center Termómetro láser <br>Desprendimiento de cascarilla en muestra
-                td.px-5.text-center Cada vez que ingrese cacao <br> Cada vez que ingrese cacao
+                td.px-5.text-center Cada vez que tueste cacao <br> Cada vez que tueste cacao
               tr
                 td.px-5.text-bold.text-center Trillado y molienda
                 td.px-5.text-center Pesaje de residuos de cascarilla en muestra
@@ -158,9 +158,18 @@
               tbody
                 tr.bgt2
                   td.px-5.text-bold.text-center Limpieza y clasificación 
-                  td.px-5.text-center Fermentación (%) <br>Humedad (%)<br> Impurezas/pizarrosos (%)
-                  td.px-5.text-center Mínimo 90 % de fermentación <br>Máx. 7 %<br>Máx. 0.3 %
-                  td.px-5.text-center Por debajo se rechaza <br>Por debajo se rechaza <br>Retirar impurezas (granos pizarrosos)
+                  td.px-5.text-center 
+                    p.mb-0.mb-lg-3 Fermentación (%) 
+                    p.mb-0 Humedad (%) 
+                    p.mb-0 Impurezas/pizarrosos (%)
+                  td.px-5.text-center 
+                    p.mb-0.mb-lg-2 Mínimo 90 % de fermentación 
+                    p.mb-0 Máx. 7 %
+                    p Máx. 0.3 %
+                  td.px-5.text-center 
+                    p.mb-4 Por debajo se rechaza 
+                    p.mb-0 Por encima se rechaza 
+                    p.mb-0 Retirar impurezas (granos pizarrosos)
                 tr.bgt1
                   td.px-5.text-bold.text-center Tostión
                   td.px-5.text-center Temperatura de tostado <br>Tiempo de tostado
@@ -168,7 +177,7 @@
                   td.px-5.text-center Aumentar o disminuir fuente de calor
                 tr.bgt2
                   td.px-5.text-bold.text-center Trillado y molienda
-                  td.px-5.text-center Cascarilla en nibs (%)
+                  td.px-5.text-center Cascarilla en <em>nibs</em> (%)
                   td.px-5.text-center Máx. 3 %
                   td.px-5.text-center Repetir operación de descascarillado
                 tr.bgt1
@@ -195,7 +204,7 @@
                 tr.bgt1
                   td.px-5.text-bold.text-center Almacenamiento
                   td.px-5.text-center Temperaturas de almacenamiento
-                  td.px-5.text-center Mín. 10 °C - Máx. 18 
+                  td.px-5.text-center Mín. 10 °C - Máx. 18 °C 
                   td.px-5.text-center Revisar tablero digital de temperatura y reprogramar
     .row.justify-content-center.align-items-center          
       .col-lg-12.imgs-flotantes5

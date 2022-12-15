@@ -207,12 +207,6 @@ export default {
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=esES&Q=04D103EFA7FE09150F248A099F1E77F9312408EA304CDFA9&Req=valuacion_de_la_Calidad_del_Grano_de_Cacao.pdf',
     },
-    {
-      referencia:
-        'Aguilar, H. (2016). Manual para la evaluación de la calidad del grano de cacao. Fundación Hondureña de Investigación.',
-      link:
-        'http://www.fhia.org.hn/descargas/Proyecto_de_Cacao_SECO/Manual_para_la_Evaluacion_de_la_Calidad_del_Grano_de_Cacao.pdf',
-    },
   ],
   creditos: {
     liderEquipo: [
